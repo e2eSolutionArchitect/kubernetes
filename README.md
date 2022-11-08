@@ -11,5 +11,5 @@ K8s documentations
 - [How kubernetes works](https://www.cncf.io/blog/2019/08/19/how-kubernetes-works/)
 
 EKS
-- [Quick intro](https://github.com/e2eSolutionArchitect/KEDB/blob/main/aws/eks/eks-quick-intro.md)
+- [Quick intro](https://github.com/e2eSolutionArchitect/kubernetes/tree/main/EKS)
 
