@@ -10,6 +10,6 @@ K8s documentations
 - [Kubernetes components](https://kubernetes.io/docs/concepts/overview/components/)
 - [How kubernetes works](https://www.cncf.io/blog/2019/08/19/how-kubernetes-works/)
 
-EKS
-- [Quick intro](https://github.com/e2eSolutionArchitect/kubernetes/tree/main/EKS)
+## EKS
+- [Quick intro](https://github.com/e2eSolutionArchitect/kubernetes/blob/main/EKS/readme.md)
 
