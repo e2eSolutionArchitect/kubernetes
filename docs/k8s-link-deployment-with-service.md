@@ -1,5 +1,5 @@
 
-## How to link a Deployment with a Service
+## How to link k8s Deployment with a Service
 Please check the mapping of 'k8s-service-01' in below code for Deployment and Service. 
 ```
 Under Deployment template specification. 
