@@ -9,5 +9,5 @@ EKS is managed service. Users need to focus on Application workload design and d
 
 ![image](https://user-images.githubusercontent.com/62712515/200024539-70044eb4-b262-4985-9f05-531cb3a0c041.png)
 
+![image](https://user-images.githubusercontent.com/62712515/200707166-2c706320-1978-4eb9-b3b3-717819608562.png)
 
-![image](https://user-images.githubusercontent.com/62712515/200705409-1250d70b-dc29-4a3a-bd38-f0a8c198b821.png)
