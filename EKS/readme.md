@@ -8,3 +8,6 @@
 EKS is managed service. Users need to focus on Application workload design and deploy. Don't need to worry about HA, maintenance etc in any nodes. 
 
 ![image](https://user-images.githubusercontent.com/62712515/200024539-70044eb4-b262-4985-9f05-531cb3a0c041.png)
+
+
+![image](https://user-images.githubusercontent.com/62712515/200705409-1250d70b-dc29-4a3a-bd38-f0a8c198b821.png)
