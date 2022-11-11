@@ -36,4 +36,7 @@ service/e2esa-webapp01-service   NodePort   172.20.115.11   <none>        80:303
 - add inbound rule for Custom TCP for port NodePort and open it to 0.0.0.0 (as we are deploying publickly accessible app)
 
 - Now the url to access app will be http://node-external-ip:nodeport. for above example it is http://node-external-ip:30317, http://34.200.232.10:30317 or http://ec2-34-200-232-10.compute-1.amazonaws.com:30317/
+  
+  - Create an ALB and target group to point to the nodegroup instances. and access through ALB DNS link
+  - You can add ALB in Route53 with a domain name
 
