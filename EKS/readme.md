@@ -11,3 +11,29 @@ EKS is managed service. Users need to focus on Application workload design and d
 
 ![image](https://user-images.githubusercontent.com/62712515/200707166-2c706320-1978-4eb9-b3b3-717819608562.png)
 
+## How to access the deployed app ?
+
+- After you have created kubernetes service and deployment from this yaml [click here](https://raw.githubusercontent.com/e2eSolutionArchitect/scripts/main/kubernetes/deployment/deployment-nginx.yaml)
+
+```
+kubectl apply -f https://raw.githubusercontent.com/e2eSolutionArchitect/scripts/main/kubernetes/deployment/deployment-nginx.yaml
+```
+- check node external IP
+```
+kubectl get nodes -o wide --namespace=e2esa-webapp01-ns
+```
+
+- check the NodePort from service, here it is 30317 in below output
+```
+kubectl get services --namespace=e2esa-webapp01-ns
+
+NAME                             TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service/e2esa-webapp01-service   NodePort   172.20.115.11   <none>        80:30317/TCP   57m
+```
+
+- IMPORTANT: Make sure you have this nodeport (30317) allowed to internet in cluster security group. 
+- to verify that, go to Security groups > search for the security group name like 'eks-cluster-<your-cluster-name>' . e.g, eks-cluster-sg-e2esa-demo-eks-cluster
+- add inbound rule for Custom TCP for port NodePort and open it to 0.0.0.0 (as we are deploying publickly accessible app)
+
+- Now the url to access app will be http://<node-external-ip>:<nodeport>. for above example it is http://<node-external-ip>:30317, http://34.200.232.10:30317 or http://ec2-34-200-232-10.compute-1.amazonaws.com:30317/
+
