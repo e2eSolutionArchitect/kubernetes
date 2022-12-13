@@ -1,7 +1,7 @@
 # kubernetes
 kubernetes problems, solutions, scripts, architecture and implementation steps
 
-## Kubernates Scripts and Commands [click here](https://github.com/e2eSolutionArchitect/scripts/blob/main/kubernetes/k8s-handy-commands.md)
+## Kubernates Scripts and Commands [click here](https://github.com/e2eSolutionArchitect/scripts/blob/main/kubernetes/commands/k8s-handy-commands.md)
 
 ## EKS Problems and Resolution (KEDB) [click here](https://github.com/e2eSolutionArchitect/KEDB/tree/main/aws/eks)
 ## Kubernetes Problems and Resolutions (KEDB)[click here](https://github.com/e2eSolutionArchitect/KEDB/tree/main/kubernetes)
