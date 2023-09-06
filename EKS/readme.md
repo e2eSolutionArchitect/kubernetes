@@ -40,3 +40,5 @@ service/e2esa-webapp01-service   NodePort   172.20.115.11   <none>        80:303
   - Create an ALB and target group to point to the nodegroup instances. and access through ALB DNS link
   - You can add ALB in Route53 with a domain name
 
+[![e2eSA Talent Development Programs](https://user-images.githubusercontent.com/62712515/212548238-92365832-fe03-47c7-8c06-701834a67ebf.png)](https://github.com/e2eSolutionArchitect/academy)
+***[Click here](https://e2esolutionarchitect.eventbrite.com)*** for list of upcoming trainings.
