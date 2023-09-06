@@ -21,3 +21,17 @@ aws eks update-kubeconfig \
     --role-arn arn:aws:iam::1111111111:role/myrole
 	  --profile default
 ```
+
+## Check kubectl config
+```
+kubectl config view --minify
+```
+
+Troubleshoot [click here](https://github.com/e2eSolutionArchitect/troubleshoot/tree/main/aws/eks) , if you receive any of the following errors
+- is not authorized to perform: sts:AssumeRole on resource
+- couldn't get current server API group list: the server has asked for the client to provide credentials
+
+## Get cluster details
+```
+kubectl get svc
+```
