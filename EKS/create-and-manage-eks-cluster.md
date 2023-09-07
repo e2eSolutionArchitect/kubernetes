@@ -12,6 +12,16 @@
 ```
 aws sts get-caller-identity
 ```
+output
+```
+ubuntu@ip-172-20-0-52:~$ aws sts get-caller-identity
+{
+    "UserId": "############",
+    "Account": "11111111111111",
+    "Arn": "arn:aws:iam::11111111111111:user/myuser"
+}
+```
+
 
 ## Create or update a kubeconfig file for your cluster
 ```
