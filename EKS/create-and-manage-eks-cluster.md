@@ -8,6 +8,9 @@
 ## Install kubectl ( If not installed already using above CF template)
 - click [here](https://github.com/e2eSolutionArchitect/kubernetes/blob/main/docs/install-kubectl.md)
 
+## Install eksctl 
+- [click here](https://github.com/e2eSolutionArchitect/kubernetes/blob/main/docs/install-eksctl.md)
+
 ## Verify the user configured via aws configure
 ```
 aws sts get-caller-identity
