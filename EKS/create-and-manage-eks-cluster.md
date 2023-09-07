@@ -124,6 +124,8 @@ multiple user can be added like below
       - eks-console-dashboard-full-access-group
 
 ```
+## Make sure the role associated with the user has trust relationship for sts:AssumeRole 
+EKS role Trust Relationship [check here](https://github.com/e2eSolutionArchitect/scripts/blob/main/aws/iam/policies/e2esa-eks-demo.json)
 
 ## Get cluster details
 ```
