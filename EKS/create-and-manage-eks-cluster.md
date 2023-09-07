@@ -20,6 +20,8 @@ aws eks update-kubeconfig \
     --name eks-cluster \
     --role-arn arn:aws:iam::1111111111:role/myrole
     --profile default
+
+aws eks update-kubeconfig --region us-east-1 --name eks-cluster --role-arn arn:aws:iam::1111111111:role/myrole --profile default
 ```
 
 ## Check kubectl config
