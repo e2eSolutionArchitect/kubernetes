@@ -101,7 +101,7 @@ data:
       groups:
       - system:bootstrappers
       - system:nodes
-	  - system:masters
+      - system:masters
       - eks-console-dashboard-full-access-group
 kind: ConfigMap
 metadata:
