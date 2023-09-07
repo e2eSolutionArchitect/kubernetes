@@ -40,8 +40,8 @@ kubectl apply -f eks-console-full-access.yaml
 ```
 
 Troubleshoot [click here](https://github.com/e2eSolutionArchitect/troubleshoot/tree/main/aws/eks) , if you receive any of the following errors
-- is not authorized to perform: sts:AssumeRole on resource
-- couldn't get current server API group list: the server has asked for the client to provide credentials
+- [is not authorized to perform: sts:AssumeRole on resource](https://github.com/e2eSolutionArchitect/troubleshoot/blob/main/aws/is%20not%20authorized%20to%20perform%20sts%20AssumeRole%20on%20resource.md)
+- [couldn't get current server API group list: the server has asked for the client to provide credentials](https://github.com/e2eSolutionArchitect/troubleshoot/blob/main/aws/eks/the%20server%20has%20asked%20for%20the%20client%20to%20provide%20credentials.md)
 
 ## Output
 
