@@ -32,6 +32,12 @@ ubuntu@ip-172-20-0-52:~$ aws sts get-caller-identity
 
 
 ## Create or update a kubeconfig file for your cluster
+
+```
+aws eks update-kubeconfig --region us-east-1 --name eks-cluster
+```
+
+Alternative way pass role and profile but while updating configMap I would recommend to use the above single liner command 
 ```
 aws eks update-kubeconfig \
     --region us-east-1 \
