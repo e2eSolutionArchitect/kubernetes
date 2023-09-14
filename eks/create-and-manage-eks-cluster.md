@@ -166,6 +166,12 @@ eksctl get clusters --region us-east-1
 kubectl apply -f deployment.yml
 ```
 
+## Get all resources
+```
+kubectl get all -n <namespace>
+kubectl get all -n eks-sample-app
+```
+
 [![HELPLINE](https://github.com/e2eSolutionArchitect/academy/assets/8308302/3b85acaf-50f5-4a4f-850d-46216de108af)](Helpline)(https://e2esolutionarchitect.com/helpline/)
 
 ***[Click here](https://e2esolutionarchitect.eventbrite.com)*** for list of upcoming trainings.
