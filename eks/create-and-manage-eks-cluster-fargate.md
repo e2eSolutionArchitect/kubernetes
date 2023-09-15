@@ -163,7 +163,7 @@ kubectl get svc
 eksctl get clusters --region us-east-1
 ```
 
-## execute deployment yml
+## Execute deployment yml - refer template [here](https://github.com/e2eSolutionArchitect/kubernetes/blob/main/eks/deployments/deployment-nginx-eks-fargate.yml)
 ```
 kubectl apply -f deployment.yml
 ```
