@@ -8,6 +8,8 @@
 ## Install kubectl ( If not installed already using above CF template)
 - click [here](https://github.com/e2eSolutionArchitect/kubernetes/blob/main/docs/install-kubectl.md)
 
+## Please refer Troubleshoot [here](https://github.com/e2eSolutionArchitect/kubernetes/blob/main/eks/troubleshoot.md) when needed
+
 ## Configure AWS
 ```
 aws configure
