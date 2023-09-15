@@ -170,6 +170,8 @@ kubectl apply -f deployment.yml
 
 ## Get all resources
 ```
+kubectl get pods --all-namespaces
+
 kubectl get all -n <namespace>
 kubectl get all -n eks-sample-app
 ```
