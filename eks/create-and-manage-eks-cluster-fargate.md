@@ -1,4 +1,7 @@
 
+
+<img width="1505" alt="image" src="https://github.com/e2eSolutionArchitect/kubernetes/assets/62712515/280183bd-57bc-4182-ba82-3ac60c3d9064">
+
 ## Create  EKS Cluster with Fargate profile
 - Please refer here for the [AWS Cloudformation template](https://github.com/e2eSolutionArchitect/scripts/blob/main/aws/cloudformation/cf-eks-fargate.yml) to provision EKS cluster with Fargate profile
 
@@ -39,7 +42,7 @@ ubuntu@ip-172-20-0-52:~$ aws sts get-caller-identity
 aws eks update-kubeconfig --region us-east-1 --name eks-cluster
 ```
 
-Alternative way pass role and profile but while updating configMap I would recommend to use the above single liner command 
+An alternative way pass role and profile but while updating configMap I would recommend using the above single liner command 
 ```
 aws eks update-kubeconfig \
     --region us-east-1 \
