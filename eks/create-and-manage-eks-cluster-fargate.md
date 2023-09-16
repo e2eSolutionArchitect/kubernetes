@@ -5,6 +5,13 @@
 ## Create  EKS Cluster with Fargate profile
 - Please refer here for the [AWS Cloudformation template](https://github.com/e2eSolutionArchitect/scripts/blob/main/aws/cloudformation/cf-eks-fargate.yml) to provision EKS cluster with Fargate profile
 
+# ***** Attention *****
+To avoid few eks errors please make sure you keep below pointers in mind before creating eks cluster
+- Fargate profile 'Namespace' should match with pod 'Namespace'
+- Private Subnet is required for Fargate profile. Make sure you have private subnet available
+- If you are pulling an image from public repository , please make sure you have NAT gateway properly configured. Because pods will be created under fargate profile which is in private subnet. It will not have internet gateway
+- after nginx deployment, if pods are not running because of cloudwatch log group, please check the troubleshooting reference below. 
+
 ## Create an EC2 to manage and configure cluster from there
 - Please refer here for the [AWS Cloudformation template](https://github.com/e2eSolutionArchitect/scripts/blob/main/aws/cloudformation/cf-ec2-kubectl.yml) to create an EC2 with AWS CLI and kubectl installed. 
 
