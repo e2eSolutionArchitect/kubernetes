@@ -148,14 +148,21 @@ metadata:
   uid: 1cghhtf0-bgh3-4ed1-b7df-e9dd7310oj7fd
 ```
 
-multiple user can be added like below
+multiple user can be added like below with diffferent set of groups for permissions
 ```
     mapUsers: |
     - userarn: arn:aws:iam::<aws-acc-no>:user/<iam-user-name>
-      username: <iam-user-name>
+      username: <iam-user-name1>
       groups:
-      - e2esa-development-role-01 # Role from K8S Role contructs
       - system:bootstrappers
+      - system:masters
+      - system:nodes
+      - eks-console-dashboard-full-access-group
+    - userarn: arn:aws:iam::<aws-acc-no>:user/<iam-user-name>
+      username: <iam-user-name2>
+      groups:
+      - system:bootstrappers
+      - system:masters
       - system:nodes
       - eks-console-dashboard-full-access-group
 
