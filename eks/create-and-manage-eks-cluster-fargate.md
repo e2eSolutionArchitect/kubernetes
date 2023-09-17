@@ -148,7 +148,7 @@ metadata:
   uid: 1cghhtf0-bgh3-4ed1-b7df-e9dd7310oj7fd
 ```
 
-multiple user can be added like below with diffferent set of groups for permissions
+multiple users can be added like below with diffferent set of groups for permissions
 ```
     mapUsers: |
     - userarn: arn:aws:iam::<aws-acc-no>:user/<iam-user-name>
