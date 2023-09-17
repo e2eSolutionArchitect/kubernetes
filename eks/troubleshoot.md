@@ -29,3 +29,10 @@ Fargate profile is hosted in private subnet. make sure you are not expecting to 
         NatGatewayId: !Ref NATGateway
 
 ```
+
+## no nodes available to schedule pods
+Under Resource > Pod. it is showing 
+```
+Warning	FailedScheduling	2 minutes ago	default-scheduler	no nodes available to schedule pods
+```
+Fix:
