@@ -4,6 +4,13 @@
 - az aks get-versions --location eastus --output table
 - az aks get-upgrades --resource-group aksdemo --name askdemo 
 
+## Check schema validation 
+Using 'datree' to validate schema version or misconfiguration of kubernetes. 
+datree test --schema-version <to-be-version> *.yml
+datree test --schema-version "1.16.2" *.yml
+
+Note: *.yml is actually all deployment yml files. It is assumed that all deployment ymls are at same location where the above command is running 
+
 ## Version upgrade
 
 [major].[minor].[patch] e.g 1.15.x
