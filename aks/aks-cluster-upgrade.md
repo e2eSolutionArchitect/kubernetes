@@ -17,3 +17,5 @@ tO upgrade to 1.17.x, first 1.15.x  to 1.16.x then to 1.17.x
 ### Patch version upgrade 
 1.15.2 > 1.16.9
 
+***Check End of life*** of a version [here](https://learn.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli)
+
