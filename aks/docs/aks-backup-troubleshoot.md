@@ -11,13 +11,18 @@ Get-AzProviderFeature -FeatureName "EncryptionAtHost" -ProviderNamespace "Micros
 
 https://stackoverflow.com/questions/64787022/the-term-register-azresourceprovider-is-not-recognized-as-the-name-of-a-cmdlet
 
+```
 az provider register --namespace "Microsoft.KubernetesConfiguration"
 az provider show -n Microsoft.KubernetesConfiguration
+```
 
 ## Protection Error UserErrorInvalidLabelSelector: Invalid label selector provided.
 
+Check the labels attached to nodes and backup policy. It should be same.
+```
 kubernetes.azure.com/cluster:MC_rg-aks-backup_e2eSA-Dev-cluster-57359_eastus
 kubernetes.azure.com/node-image-version:AKSUbuntu-2204gen2containerd-202403.25.0
+```
 
 https://learn.microsoft.com/en-us/answers/questions/599385/cannot-delete-backup-vault
 You can't delete a vault that contains backup data in the soft deleted state.
